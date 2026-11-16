@@ -1,0 +1,29 @@
+=== BASELINE METADATA: nginx:1.30 ===
+Captured: 2026-09-18T17:43:57Z
+
+--- Digest ---
+nginx@sha256:f91bdb7aee4cba26f89b1c5c3aa12742ec3c91c6d70fd7007c6dc797e9676c45
+
+--- Size ---
+Size: 169475103 bytes (169475103 / 1048576 MB)
+VirtualSize: 0 bytes
+
+--- Layers ---
+Layer count: 7
+
+--- Config ---
+User: []
+Cmd: [nginx -g daemon off;]
+Entrypoint: [/docker-entrypoint.sh]
+WorkingDir: []
+ExposedPorts: map[80/tcp:{}]
+
+--- Environment ---
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+NGINX_VERSION=1.30.5
+NJS_VERSION=1.0.1
+NJS_RELEASE=1~trixie
+ACME_VERSION=0.4.1
+PKG_RELEASE=1~trixie
+DYNPKG_RELEASE=1~trixie
+

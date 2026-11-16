@@ -1,0 +1,50 @@
+  Using default CI config
+[1mImage Source: [0mdocker://nginx:1.30-sep18
+[1mExtracting image from docker-engine...[0m (this can take a while for large images)
+[1mAnalyzing image...[0m
+  efficiency: 93.9814 %
+  wastedBytes: 20030289 bytes (20 MB)
+  userWastedPercent: 22.0573 %
+[1mInefficient Files:[0m
+Count  Wasted Space  File Path
+    2         13 MB  /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+    2        2.2 MB  /usr/lib/x86_64-linux-gnu/libssl.so.3
+    2        1.6 MB  /var/cache/debconf/templates.dat
+    2        1.6 MB  /var/cache/debconf/templates.dat-old
+    2        549 kB  /var/lib/dpkg/info/libssl3t64:amd64.symbols
+    2        282 kB  /usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so
+    2        199 kB  /var/lib/dpkg/status
+    2        198 kB  /var/lib/dpkg/status-old
+    2        104 kB  /usr/lib/x86_64-linux-gnu/engines-3/loader_attic.so
+    2         53 kB  /usr/lib/x86_64-linux-gnu/engines-3/padlock.so
+    2         46 kB  /usr/lib/x86_64-linux-gnu/engines-3/afalg.so
+    2         22 kB  /var/cache/debconf/config.dat
+    2         21 kB  /var/cache/debconf/config.dat-old
+    2         19 kB  /etc/ld.so.cache
+    2         13 kB  /var/lib/apt/extended_states
+    2         11 kB  /var/log/apt/eipp.log.xz
+    2        5.1 kB  /usr/share/doc/openssl-provider-legacy/copyright
+    2        5.1 kB  /usr/share/doc/libssl3t64/copyright
+    2        1.7 kB  /etc/passwd
+    2        1.7 kB  /etc/passwd-
+    2        1.5 kB  /var/lib/dpkg/info/libssl3t64:amd64.md5sums
+    2        1.2 kB  /var/lib/dpkg/info/libssl3t64:amd64.list
+    2         968 B  /etc/shadow
+    2         881 B  /etc/group
+    2         868 B  /etc/group-
+    2         738 B  /etc/gshadow
+    2         712 B  /var/lib/dpkg/info/openssl-provider-legacy.list
+    2         682 B  /var/lib/dpkg/info/openssl-provider-legacy.md5sums
+    2         436 B  /var/lib/dpkg/diversions-old
+    2         400 B  /var/lib/dpkg/diversions
+    2         298 B  /var/lib/dpkg/info/libssl3t64:amd64.shlibs
+    2         136 B  /var/lib/dpkg/info/libssl3t64:amd64.triggers
+    2           0 B  /var/lib/dpkg/triggers/Lock
+    2           0 B  /var/lib/dpkg/lock
+    2           0 B  /var/lib/dpkg/triggers/Unincorp
+[1mResults:[0m
+  [1;7;31mFAIL[0m: highestUserWastedPercent: too many bytes wasted, relative to the user bytes added (%-user-wasted-bytes=0.22057271037597823 > threshold=0.1)
+  [34mSKIP[0m: highestWastedBytes: rule disabled
+  PASS: lowestEfficiency
+[31mResult:FAIL [Total:3] [Passed:1] [Failed:1] [Warn:0] [Skipped:1][0m
+

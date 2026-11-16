@@ -1,0 +1,30 @@
+=== Extended runtime probe: nginx-hardened:latest  Thu Oct 29 03:10:02 AM UTC 2026 ===
+--- 1. Body limit (2 MB POST; expect 413) ---
+HTTP 413
+--- 2. Method restriction (expect 403 for each; TRACE 405) ---
+POST    HTTP 403
+PUT     HTTP 403
+DELETE  HTTP 403
+OPTIONS HTTP 403
+PATCH   HTTP 403
+TRACE   HTTP 405
+--- 3. Rate limit (100 parallel GETs; expect ~41+ 200s, the rest 503) ---
+     54 200
+     46 503
+--- 4. Header timeout (idle connection; expect ~10 s, not 20) ---
+closed after 20 s
+--- 5. CSP value as served ---
+content-security-policy: default-src 'self'; frame-ancestors 'none'
+--- 6. Error log (limit messages) ---
+2026/10/29 03:10:06 [error] 7#7: *102 limiting requests, excess: 40.960 by zone "perreq", client: 172.17.0.1, server: _, request: "GET / HTTP/2.0", host: "localhost:8453"
+2026/10/29 03:10:06 [error] 7#7: *103 limiting requests, excess: 40.900 by zone "perreq", client: 172.17.0.1, server: _, request: "GET / HTTP/2.0", host: "localhost:8453"
+2026/10/29 03:10:06 [error] 7#7: *105 limiting requests, excess: 40.880 by zone "perreq", client: 172.17.0.1, server: _, request: "GET / HTTP/2.0", host: "localhost:8453"
+2026/10/29 03:10:06 [error] 7#7: *106 limiting requests, excess: 40.820 by zone "perreq", client: 172.17.0.1, server: _, request: "GET / HTTP/2.0", host: "localhost:8453"
+2026/10/29 03:10:06 [error] 7#7: *107 limiting requests, excess: 40.800 by zone "perreq", client: 172.17.0.1, server: _, request: "GET / HTTP/2.0", host: "localhost:8453"
+
+--- 4b. Header timeout re-measured (addendum, 2026-10-29 03:10 UTC) ---
+Test 4's "20 s" is a client artifact: Kali's nc is netcat-traditional v1.10,
+which does not exit when the server closes; it waits for stdin (sleep 20) to end.
+Re-measured with a raw socket that exits on server EOF:
+  timeout 30 bash -c 'exec 3<>/dev/tcp/localhost/8090; cat <&3 >/dev/null'
+closed after 10 s   (config: client_header_timeout 10s)

@@ -1,0 +1,5 @@
+  Using default CI config
+[1mImage Source: [0mdocker://nginx:1.30
+[1mExtracting image from docker-engine...[0m (this can take a while for large images)
+cannot fetch image
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.48/images/nginx:1.30/json": dial unix /var/run/docker.sock: connect: permission denied

@@ -1,0 +1,2 @@
+=== [1/4] Fetching and verifying resources ===
+curl: (7) Failed to connect to nginx.org:443 after 83568 ms: Could not connect to server

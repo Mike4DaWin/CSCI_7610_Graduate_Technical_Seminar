@@ -1,0 +1,66 @@
+=== RUNTIME VERIFICATION: nginx-hardened:latest ===
+Captured: 2026-10-26T23:45:59Z
+
+--- HTTP Response Code ---
+HTTP 200
+
+--- Response Headers ---
+HTTP/2 200 
+server: nginx
+date: Mon, 26 Oct 2026 23:45:59 GMT
+content-type: text/html
+content-length: 82
+last-modified: Mon, 26 Oct 2026 21:58:30 GMT
+etag: "6adfcd06-52"
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: DENY
+content-security-policy: default-src 'self'; frame-ancestors 'none'
+referrer-policy: no-referrer
+accept-ranges: bytes
+
+
+--- Plain HTTP (expect 301 to HTTPS) ---
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 26 Oct 2026 23:45:59 GMT
+
+--- Server Header (fingerprinting check) ---
+server: nginx
+
+--- TLS protocol support ---
+tls1: rejected (0A00042E:SSL routines:ssl3_read_bytes:tlsv1 alert protocol version:../ssl/record/rec_layer)
+tls1_1: rejected (0A00042E:SSL routines:ssl3_read_bytes:tlsv1 alert protocol version:../ssl/record/rec_layer)
+tls1_2: accepted (New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384)
+tls1_3: accepted (New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384)
+
+--- Running Process User ---
+uid=998(nginx) gid=998(nginx) groups=998(nginx)
+UID                 PID                 COMMAND
+998                 155217              nginx: master process nginx -g daemon off;
+998                 155283              nginx: worker process
+998                 155284              nginx: worker process
+
+--- Shell available in container? ---
+yes
+
+--- Container User (from config) ---
+nginx
+
+--- Exposed Ports ---
+8080/tcp -> 0.0.0.0:8090
+8080/tcp -> [::]:8090
+8443/tcp -> 0.0.0.0:8453
+8443/tcp -> [::]:8453
+
+--- Container log (last 10 lines) ---
+2026/10/26 23:45:56 [notice] 1#1: built by gcc 14.3.1 20251022 (Red Hat 14.3.1-4) (GCC) 
+2026/10/26 23:45:56 [notice] 1#1: OS: Linux 6.16.8+kali-amd64
+2026/10/26 23:45:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/26 23:45:56 [notice] 1#1: start worker processes
+2026/10/26 23:45:56 [notice] 1#1: start worker process 7
+2026/10/26 23:45:56 [notice] 1#1: start worker process 8
+172.17.0.1 - - [26/Oct/2026:23:45:59 +0000] "GET / HTTP/2.0" 200 82 "-" "curl/8.21.0" "-"
+172.17.0.1 - - [26/Oct/2026:23:45:59 +0000] "HEAD / HTTP/2.0" 200 0 "-" "curl/8.21.0" "-"
+172.17.0.1 - - [26/Oct/2026:23:45:59 +0000] "HEAD / HTTP/1.1" 301 0 "-" "curl/8.21.0" "-"
+172.17.0.1 - - [26/Oct/2026:23:45:59 +0000] "HEAD / HTTP/2.0" 200 0 "-" "curl/8.21.0" "-"

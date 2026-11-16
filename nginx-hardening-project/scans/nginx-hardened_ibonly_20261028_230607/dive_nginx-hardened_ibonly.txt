@@ -1,0 +1,74 @@
+  Using default CI config
+[1mImage Source: [0mdocker://nginx-hardened:ibonly
+[1mExtracting image from docker-engine...[0m (this can take a while for large images)
+[1mAnalyzing image...[0m
+  efficiency: 90.8646 %
+  wastedBytes: 34309985 bytes (34 MB)
+  userWastedPercent: 25.3370 %
+[1mInefficient Files:[0m
+Count  Wasted Space  File Path
+    2         23 MB  /usr/lib/sysimage/rpm/rpmdb.sqlite
+    2        8.1 MB  /var/lib/dnf/history.sqlite-wal
+    2        1.1 MB  /tmp/nginx.rpm
+    2        381 kB  /usr/share/man/man5
+    2        331 kB  /usr/share/man/man1
+    2        270 kB  /usr/share/man/man8
+    2        254 kB  /var/lib/dnf/history.sqlite
+    2        183 kB  /usr/bin/passwd
+    2        174 kB  /usr/share/man/man7
+    2        174 kB  /usr/bin/chage
+    2        156 kB  /usr/bin/gpasswd
+    3         98 kB  /usr/lib/sysimage/rpm/rpmdb.sqlite-shm
+    2         98 kB  /usr/bin/mount
+    2         84 kB  /usr/bin/newgrp
+    2         73 kB  /usr/bin/umount
+    2         66 kB  /var/lib/dnf/history.sqlite-shm
+    2         13 kB  /etc/ld.so.cache
+    2         11 kB  /etc/nginx/mime.types
+    2        4.2 kB  /etc/nginx/nginx.conf
+    2        3.6 kB  /tmp/nginx.conf
+    2        3.0 kB  /tmp/strip.sh
+    2        1.8 kB  /usr/share/man/man3
+    2        1.4 kB  /etc/passwd
+    2        1.1 kB  /var/log/hawkey.log
+    2        1.1 kB  /etc/nginx/conf.d/default.conf
+    2        1.0 kB  /etc/nginx/fastcgi_params
+    2         978 B  /usr/share/nginx/html/index.html
+    2         776 B  /etc/shadow
+    2         689 B  /etc/group
+    2         664 B  /etc/nginx/uwsgi_params
+    2         636 B  /etc/nginx/scgi_params
+    2         530 B  /etc/gshadow
+    2         497 B  /usr/share/nginx/html/50x.html
+    2          82 B  /tmp/index.html
+    2          33 B  /etc/machine-id
+    2           0 B  /usr/share/man/mann
+    2           0 B  /usr/share/man/man9x
+    2           0 B  /usr/share/man/man9
+    2           0 B  /usr/share/man/man8x
+    2           0 B  /usr/share/man/man5x
+    2           0 B  /usr/share/man/man6x
+    2           0 B  /usr/share/man/man0p
+    2           0 B  /var/tmp
+    2           0 B  /usr/share/man/man6
+    2           0 B  /usr/share/man/man1p
+    2           0 B  /usr/share/man/man1x
+    2           0 B  /usr/share/man/man2
+    3           0 B  /usr/lib/sysimage/rpm/rpmdb.sqlite-wal
+    2           0 B  /var/cache/nginx
+    2           0 B  /var/log/nginx/access.log
+    2           0 B  /usr/lib/sysimage/rpm/.rpm.lock
+    2           0 B  /usr/share/man/man2x
+    2           0 B  /var/log/nginx/error.log
+    2           0 B  /usr/share/man/man3p
+    2           0 B  /usr/share/man/man3x
+    2           0 B  /usr/share/man/man4
+    2           0 B  /usr/share/man/man4x
+    2           0 B  /etc/nginx/modules
+    2           0 B  /usr/share/man/man7x
+[1mResults:[0m
+  [1;7;31mFAIL[0m: highestUserWastedPercent: too many bytes wasted, relative to the user bytes added (%-user-wasted-bytes=0.2533701175802539 > threshold=0.1)
+  [34mSKIP[0m: highestWastedBytes: rule disabled
+  PASS: lowestEfficiency
+[31mResult:FAIL [Total:3] [Passed:1] [Failed:1] [Warn:0] [Skipped:1][0m
+

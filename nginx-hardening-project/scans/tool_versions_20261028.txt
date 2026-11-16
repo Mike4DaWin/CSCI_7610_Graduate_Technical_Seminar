@@ -1,0 +1,10 @@
+Thu Oct 29 02:57:03 AM UTC 2026
+Application:         grype
+Version:             0.119.0
+BuildDate:           2026-09-17T16:17:07Z
+Version: 0.74.0
+Vulnerability DB:
+  Version: 2
+  UpdatedAt: 2026-10-29 01:22:22.544155871 +0000 UTC
+  NextUpdate: 2026-10-30 01:22:22.544155326 +0000 UTC
+  DownloadedAt: 2026-10-29 02:57:03.521351773 +0000 UTC

@@ -1,0 +1,25 @@
+2026-10-28T23:00:16-04:00	INFO	[vuln] Vulnerability scanning is enabled
+2026-10-28T23:00:16-04:00	INFO	[secret] Secret scanning is enabled
+2026-10-28T23:00:16-04:00	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to disable secret scanning
+2026-10-28T23:00:16-04:00	INFO	[secret] Please see https://trivy.dev/docs/v0.74/guide/scanner/secret#recommendation for faster secret detection
+2026-10-28T23:00:20-04:00	INFO	Detected OS	family="redhat" version="10.2"
+2026-10-28T23:00:20-04:00	INFO	[redhat] Detecting RHEL/CentOS vulnerabilities...	os_version="10" pkg_num=101
+2026-10-28T23:00:20-04:00	INFO	Number of language-specific files	num=0
+
+Report Summary
+
+┌─────────────────────────────────────┬────────┬─────────────────┬─────────┐
+│               Target                │  Type  │ Vulnerabilities │ Secrets │
+├─────────────────────────────────────┼────────┼─────────────────┼─────────┤
+│ nginx-hardened:latest (redhat 10.2) │ redhat │        0        │    -    │
+└─────────────────────────────────────┴────────┴─────────────────┴─────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+📣 [34mNotices:[0m
+  - Version 0.76.1 of Trivy is now available, current version is 0.74.0
+
+To suppress version checks, run Trivy scans with the --skip-version-check flag
+

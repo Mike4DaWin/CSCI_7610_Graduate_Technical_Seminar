@@ -1,0 +1,384 @@
+NAME                         INSTALLED            FIXED IN     TYPE  VULNERABILITY    SEVERITY  EPSS          RISK   
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2024-7264    Low       20.2% (97th)  8.4    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2024-7264    Low       20.2% (97th)  8.4    
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2024-45490   Medium    1.7% (76th)   1.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-92392   High      1.3% (69th)   1.0    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-92392   High      1.3% (69th)   1.0    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2024-7592    Low       2.3% (83rd)   0.9    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2024-7592    Low       2.3% (83rd)   0.9    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2024-7592    Low       2.3% (83rd)   0.9    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2024-11053   Low       2.0% (80th)   0.9    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2024-11053   Low       2.0% (80th)   0.9    
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-84837   Medium    1.3% (70th)   0.8    
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-84837   Medium    1.3% (70th)   0.8    
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-84837   Medium    1.3% (70th)   0.8    
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-84837   Medium    1.3% (70th)   0.8    
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-84837   Medium    1.3% (70th)   0.8    
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-84837   Medium    1.3% (70th)   0.8    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-93479   High      1.0% (63rd)   0.7    
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-84838   Medium    1.1% (65th)   0.7    
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-84838   Medium    1.1% (65th)   0.7    
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-84838   Medium    1.1% (65th)   0.7    
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-84838   Medium    1.1% (65th)   0.7    
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-84838   Medium    1.1% (65th)   0.7    
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-84838   Medium    1.1% (65th)   0.7    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-15176   High      0.8% (57th)   0.7    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-97205   High      0.8% (57th)   0.7    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-19931   Medium    1.1% (66th)   0.6    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-19931   Medium    1.1% (66th)   0.6    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2025-9232    Low       2.0% (80th)   0.6    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-42946   Medium    0.9% (60th)   0.6    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-75806   Medium    1.1% (65th)   0.6    
+libxml2                      2.12.5-10.el10_2.4                rpm   CVE-2026-0990    Medium    1.0% (61st)   0.5    
+python3-pip-wheel            23.3.2-11.el10_2                  rpm   CVE-2024-47081   Medium    1.0% (61st)   0.5    
+openssl-libs                 1:3.5.8-2.el10_2     (won't fix)  rpm   CVE-2024-41996   Low       1.1% (64th)   0.5    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2024-4603    Low       1.1% (66th)   0.5    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2025-12781   Medium    0.9% (58th)   0.4    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2025-12781   Medium    0.9% (58th)   0.4    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2025-12781   Medium    0.9% (58th)   0.4    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-11972   Medium    0.7% (53rd)   0.4    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-11972   Medium    0.7% (53rd)   0.4    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-11972   Medium    0.7% (53rd)   0.4    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-9546    Medium    0.7% (50th)   0.4    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-9546    Medium    0.7% (50th)   0.4    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-28388   Low       0.9% (58th)   0.4    
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-95521   Medium    0.6% (47th)   0.4    
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-95521   Medium    0.6% (47th)   0.4    
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-95521   Medium    0.6% (47th)   0.4    
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-95521   Medium    0.6% (47th)   0.4    
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-95521   Medium    0.6% (47th)   0.4    
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-95521   Medium    0.6% (47th)   0.4    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-54873   Medium    0.7% (52nd)   0.4    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-28389   Low       0.8% (56th)   0.4    
+nginx                        2:1.30.4-1.el10.ngx  (won't fix)  rpm   CVE-2026-42934   Medium    0.7% (53rd)   0.4    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-5773    Medium    0.6% (49th)   0.4    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-5773    Medium    0.6% (49th)   0.4    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-7210    Medium    0.7% (51st)   0.3    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-7210    Medium    0.7% (51st)   0.3    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-7210    Medium    0.7% (51st)   0.3    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-7774    Medium    0.6% (48th)   0.3    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-7774    Medium    0.6% (48th)   0.3    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-7774    Medium    0.6% (48th)   0.3    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-40701   Medium    0.7% (52nd)   0.3    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-48142   Medium    0.7% (52nd)   0.3    
+python3-pip-wheel            23.3.2-11.el10_2                  rpm   CVE-2026-114613  High      0.4% (37th)   0.3    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2025-14524   Low       0.7% (52nd)   0.3    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2025-14524   Low       0.7% (52nd)   0.3    
+libxml2                      2.12.5-10.el10_2.4                rpm   CVE-2025-27113   Low       1.1% (64th)   0.3    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-84784   Medium    0.6% (48th)   0.3    
+python3-pip-wheel            23.3.2-11.el10_2                  rpm   CVE-2025-50182   Medium    0.6% (48th)   0.3    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2025-15079   Low       0.5% (45th)   0.3    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2025-15079   Low       0.5% (45th)   0.3    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-9080    Medium    0.5% (42nd)   0.3    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-9080    Medium    0.5% (42nd)   0.3    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2025-11468   Medium    0.6% (49th)   0.3    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2025-11468   Medium    0.6% (49th)   0.3    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2025-11468   Medium    0.6% (49th)   0.3    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2025-6069    Medium    0.6% (48th)   0.3    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2025-6069    Medium    0.6% (48th)   0.3    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2025-6069    Medium    0.6% (48th)   0.3    
+sqlite-libs                  3.46.1-6.el10_2      (won't fix)  rpm   CVE-2025-29087   Medium    0.5% (44th)   0.3    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-75804   Medium    0.5% (44th)   0.3    
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-76641   High      0.4% (28th)   0.3    
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-113351  Medium    0.5% (40th)   0.3    
+krb5-libs                    1.21.3-10.el10_2                  rpm   CVE-2026-107708  Medium    0.5% (43rd)   0.3    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-9545    Medium    0.4% (34th)   0.3    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-9545    Medium    0.4% (34th)   0.3    
+libgcc                       14.3.1-4.4.el10                   rpm   CVE-2021-46195   Low       0.8% (56th)   0.3    
+libgomp                      14.3.1-4.4.el10                   rpm   CVE-2021-46195   Low       0.8% (56th)   0.3    
+libstdc++                    14.3.1-4.4.el10                   rpm   CVE-2021-46195   Low       0.8% (56th)   0.3    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-3276    Medium    0.5% (41st)   0.3    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-3276    Medium    0.5% (41st)   0.3    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-3276    Medium    0.5% (41st)   0.3    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-42772   Medium    0.5% (41st)   0.2    
+python3-pip-wheel            23.3.2-11.el10_2                  rpm   CVE-2025-50181   Medium    0.5% (40th)   0.2    
+krb5-libs                    1.21.3-10.el10_2                  rpm   CVE-2026-107778  Medium    0.4% (36th)   0.2    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-19672   Medium    0.5% (40th)   0.2    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-19672   Medium    0.5% (40th)   0.2    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-19672   Medium    0.5% (40th)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-35191   Low       0.7% (53rd)   0.2    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-4360    Medium    0.5% (41st)   0.2    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-4360    Medium    0.5% (41st)   0.2    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-4360    Medium    0.5% (41st)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2024-13176   Low       0.6% (49th)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-54872   Medium    0.4% (36th)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-54875   Medium    0.5% (41st)   0.2    
+python3-pip-wheel            23.3.2-11.el10_2                  rpm   CVE-2026-32284   Medium    0.4% (36th)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-42765   Low       0.5% (43rd)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-28387   Low       0.7% (51st)   0.2    
+glib2                        2.80.4-12.el10_2.22               rpm   CVE-2025-3360    Low       0.6% (50th)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-77696   Medium    0.4% (33rd)   0.2    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-40460   Medium    0.4% (31st)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-72897   Medium    0.4% (32nd)   0.2    
+python3-pip-wheel            23.3.2-11.el10_2                  rpm   CVE-2026-45409   Medium    0.4% (34th)   0.2    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2025-10148   Low       0.5% (44th)   0.2    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2025-10148   Low       0.5% (44th)   0.2    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-18924   Low       0.6% (47th)   0.2    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-18924   Low       0.6% (47th)   0.2    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2025-1795    Low       0.6% (49th)   0.2    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2025-1795    Low       0.6% (49th)   0.2    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2025-1795    Low       0.6% (49th)   0.2    
+glib2                        2.80.4-12.el10_2.22               rpm   CVE-2026-1489    Medium    0.4% (30th)   0.2    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-42926   Medium    0.3% (27th)   0.2    
+libgcc                       14.3.1-4.4.el10                   rpm   CVE-2026-102010  Medium    0.3% (23rd)   0.2    
+libgomp                      14.3.1-4.4.el10                   rpm   CVE-2026-102010  Medium    0.3% (23rd)   0.2    
+libstdc++                    14.3.1-4.4.el10                   rpm   CVE-2026-102010  Medium    0.3% (23rd)   0.2    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2025-15224   Low       0.5% (41st)   0.2    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2025-15224   Low       0.5% (41st)   0.2    
+rpm-sequoia                  1.10.2.1-1.el10_2                 rpm   CVE-2025-67897   Medium    0.4% (28th)   0.2    
+sqlite-libs                  3.46.1-6.el10_2      (won't fix)  rpm   CVE-2025-7458    Medium    0.3% (25th)   0.2    
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2026-4426    Medium    0.3% (23rd)   0.2    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-12345   Medium    0.3% (24th)   0.2    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-12345   Medium    0.3% (24th)   0.2    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-12345   Medium    0.3% (24th)   0.2    
+libxml2                      2.12.5-10.el10_2.4                rpm   CVE-2026-0989    Low       0.5% (44th)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-75805   Medium    0.3% (25th)   0.2    
+glib2                        2.80.4-12.el10_2.22               rpm   CVE-2025-6052    Low       0.5% (43rd)   0.2    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-4873    Medium    0.3% (25th)   0.2    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-4873    Medium    0.3% (25th)   0.2    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-13608   Low       0.5% (42nd)   0.2    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-13608   Low       0.5% (42nd)   0.2    
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-76642   High      0.2% (11th)   0.2    
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-76642   High      0.2% (11th)   0.2    
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-76642   High      0.2% (11th)   0.2    
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-76642   High      0.2% (11th)   0.2    
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-76642   High      0.2% (11th)   0.2    
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-76642   High      0.2% (11th)   0.2    
+python3-pip-wheel            23.3.2-11.el10_2                  rpm   CVE-2026-13346   Medium    0.3% (21st)   0.2    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-84783   Medium    0.3% (21st)   0.2    
+glib2                        2.80.4-12.el10_2.22               rpm   CVE-2026-1484    Medium    0.3% (27th)   0.2    
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-78408   High      0.2% (8th)    0.1    
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-78408   High      0.2% (8th)    0.1    
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-78408   High      0.2% (8th)    0.1    
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-78408   High      0.2% (8th)    0.1    
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-78408   High      0.2% (8th)    0.1    
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-78408   High      0.2% (8th)    0.1    
+glib2                        2.80.4-12.el10_2.22               rpm   CVE-2026-0988    Low       0.4% (37th)   0.1    
+sqlite-libs                  3.46.1-6.el10_2                   rpm   CVE-2025-70873   Low       0.5% (39th)   0.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2025-13034   Medium    0.2% (14th)   0.1    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2025-13034   Medium    0.2% (14th)   0.1    
+glib2                        2.80.4-12.el10_2.22               rpm   CVE-2025-7039    Low       0.4% (35th)   0.1    
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2025-53859   Low       0.4% (35th)   0.1    
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-53615   High      0.2% (7th)    0.1    
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-53615   High      0.2% (7th)    0.1    
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-53615   High      0.2% (7th)    0.1    
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-53615   High      0.2% (7th)    0.1    
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-53615   High      0.2% (7th)    0.1    
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-53615   High      0.2% (7th)    0.1    
+diffutils                    3.10-8.el10                       rpm   CVE-2026-53910   Low       0.3% (26th)   0.1    
+krb5-libs                    1.21.3-10.el10_2                  rpm   CVE-2026-11850   Medium    0.3% (19th)   0.1    
+libxml2                      2.12.5-10.el10_2.4                rpm   CVE-2026-0992    Low       0.5% (39th)   0.1    
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-41080   Low       0.4% (33rd)   0.1    
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2025-5918    Low       0.4% (31st)   0.1    
+gnutls                       3.8.10-5.el10_2                   rpm   CVE-2026-88647   Medium    0.2% (10th)   0.1    
+gnutls                       3.8.10-5.el10_2                   rpm   CVE-2026-88648   Medium    0.2% (10th)   0.1    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-6019    Medium    0.2% (11th)   0.1    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-6019    Medium    0.2% (11th)   0.1    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-6019    Medium    0.2% (11th)   0.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-80230   Low       0.4% (30th)   0.1    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-80230   Low       0.4% (30th)   0.1    
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-78410   High      0.2% (5th)    0.1    
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-78410   High      0.2% (5th)    0.1    
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-78410   High      0.2% (5th)    0.1    
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-78410   High      0.2% (5th)    0.1    
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-78410   High      0.2% (5th)    0.1    
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-78410   High      0.2% (5th)    0.1    
+libxml2                      2.12.5-10.el10_2.4                rpm   CVE-2026-1757    Medium    0.2% (12th)   0.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-92388   Medium    0.2% (11th)   0.1    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-92388   Medium    0.2% (11th)   0.1    
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-78367   Medium    0.2% (9th)    0.1    
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-78367   Medium    0.2% (9th)    0.1    
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-78367   Medium    0.2% (9th)    0.1    
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-78367   Medium    0.2% (9th)    0.1    
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-78367   Medium    0.2% (9th)    0.1    
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-78367   Medium    0.2% (9th)    0.1    
+libmodulemd                  2.15.0-12.el10                    rpm   CVE-2026-92822   Medium    0.2% (11th)   0.1    
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-53613   High      0.2% (5th)    0.1    
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-53613   High      0.2% (5th)    0.1    
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-53613   High      0.2% (5th)    0.1    
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-53613   High      0.2% (5th)    0.1    
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-53613   High      0.2% (5th)    0.1    
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-53613   High      0.2% (5th)    0.1    
+rpm-sequoia                  1.10.2.1-1.el10_2                 rpm   CVE-2024-58261   Low       0.4% (33rd)   0.1    
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-84233   Medium    0.2% (8th)    0.1    
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-84233   Medium    0.2% (8th)    0.1    
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-84233   Medium    0.2% (8th)    0.1    
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-84233   Medium    0.2% (8th)    0.1    
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-84233   Medium    0.2% (8th)    0.1    
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-84233   Medium    0.2% (8th)    0.1    
+rpm-sequoia                  1.10.2.1-1.el10_2                 rpm   CVE-2023-53161   Low       0.4% (30th)   0.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-82209   Low       0.4% (31st)   0.1    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-82209   Low       0.4% (31st)   0.1    
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2025-4516    Medium    0.2% (13th)   0.1    
+python3                      3.12.15-1.el10_2                  rpm   CVE-2025-4516    Medium    0.2% (13th)   0.1    
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2025-4516    Medium    0.2% (13th)   0.1    
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-53612   High      0.2% (4th)    0.1    
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-53612   High      0.2% (4th)    0.1    
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-53612   High      0.2% (4th)    0.1    
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-53612   High      0.2% (4th)    0.1    
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-53612   High      0.2% (4th)    0.1    
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-53612   High      0.2% (4th)    0.1    
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2025-60753   Medium    0.2% (10th)   0.1    
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2025-1632    Low       0.3% (27th)   0.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-86409   Low       0.3% (17th)   0.1    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-86409   Low       0.3% (17th)   0.1    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-31789   Low       0.2% (15th)   0.1    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-35189   Low       0.3% (24th)   0.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-86414   Low       0.2% (12th)   0.1    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-86414   Low       0.2% (12th)   0.1    
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-42771   Low       0.2% (12th)   0.1    
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-56406   Medium    0.2% (6th)    0.1    
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-56407   Medium    0.2% (6th)    0.1    
+libusb1                      1.0.30-1.el10_2                   rpm   CVE-2026-23679   Medium    0.2% (7th)    0.1    
+elfutils-debuginfod-client   0.194-2.el10_2                    rpm   CVE-2025-1377    Low       0.3% (25th)   0.1    
+elfutils-default-yama-scope  0.194-2.el10_2                    rpm   CVE-2025-1377    Low       0.3% (25th)   0.1    
+elfutils-libelf              0.194-2.el10_2                    rpm   CVE-2025-1377    Low       0.3% (25th)   0.1    
+elfutils-libs                0.194-2.el10_2                    rpm   CVE-2025-1377    Low       0.3% (25th)   0.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-86410   Low       0.2% (10th)   0.1    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-86410   Low       0.2% (10th)   0.1    
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-92390   Low       0.2% (11th)   0.1    
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-92390   Low       0.2% (11th)   0.1    
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-56403   Medium    0.2% (6th)    < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-92391   Low       0.3% (22nd)   < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-92391   Low       0.3% (22nd)   < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-32777   Medium    0.2% (12th)   < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-6276    Low       0.3% (21st)   < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-6276    Low       0.3% (21st)   < 0.1  
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-53614   High      0.1% (2nd)    < 0.1  
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-53614   High      0.1% (2nd)    < 0.1  
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-53614   High      0.1% (2nd)    < 0.1  
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-53614   High      0.1% (2nd)    < 0.1  
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-53614   High      0.1% (2nd)    < 0.1  
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-53614   High      0.1% (2nd)    < 0.1  
+rpm-sequoia                  1.10.2.1-1.el10_2                 rpm   CVE-2023-53160   Low       0.3% (22nd)   < 0.1  
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2025-5915    Low       0.2% (9th)    < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-92387   Low       0.3% (20th)   < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-92387   Low       0.3% (20th)   < 0.1  
+glibc                        2.39-145.el10_2                   rpm   CVE-2026-97399   Low       0.3% (20th)   < 0.1  
+glibc-common                 2.39-145.el10_2                   rpm   CVE-2026-97399   Low       0.3% (20th)   < 0.1  
+glibc-minimal-langpack       2.39-145.el10_2                   rpm   CVE-2026-97399   Low       0.3% (20th)   < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-32776   Medium    0.2% (5th)    < 0.1  
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-95519   Medium    0.1% (3rd)    < 0.1  
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-95519   Medium    0.1% (3rd)    < 0.1  
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-95519   Medium    0.1% (3rd)    < 0.1  
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-95519   Medium    0.1% (3rd)    < 0.1  
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-95519   Medium    0.1% (3rd)    < 0.1  
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-95519   Medium    0.1% (3rd)    < 0.1  
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-28753   Low       0.3% (19th)   < 0.1  
+python3-pip-wheel            23.3.2-11.el10_2                  rpm   CVE-2026-25645   Medium    0.2% (8th)    < 0.1  
+libmodulemd                  2.15.0-12.el10                    rpm   CVE-2026-92823   Medium    0.2% (5th)    < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-56412   Medium    0.2% (7th)    < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-32778   Medium    0.2% (6th)    < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-87862   Low       0.3% (17th)   < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-87862   Low       0.3% (17th)   < 0.1  
+systemd                      257-23.el10_2.2                   rpm   CVE-2026-4105    Medium    0.1% (3rd)    < 0.1  
+systemd-libs                 257-23.el10_2.2                   rpm   CVE-2026-4105    Medium    0.1% (3rd)    < 0.1  
+systemd-pam                  257-23.el10_2.2                   rpm   CVE-2026-4105    Medium    0.1% (3rd)    < 0.1  
+systemd                      257-23.el10_2.2                   rpm   CVE-2026-15059   Medium    0.2% (5th)    < 0.1  
+systemd-libs                 257-23.el10_2.2                   rpm   CVE-2026-15059   Medium    0.2% (5th)    < 0.1  
+systemd-pam                  257-23.el10_2.2                   rpm   CVE-2026-15059   Medium    0.2% (5th)    < 0.1  
+libsolv                      0.7.33-5.el10_2                   rpm   CVE-2026-82327   Medium    0.2% (5th)    < 0.1  
+openssl-libs                 1:3.5.8-2.el10_2                  rpm   CVE-2026-75803   Low       0.3% (16th)   < 0.1  
+rpm-sequoia                  1.10.2.1-1.el10_2                 rpm   CVE-2026-75803   Low       0.3% (16th)   < 0.1  
+elfutils-debuginfod-client   0.194-2.el10_2                    rpm   CVE-2025-1376    Low       0.3% (23rd)   < 0.1  
+elfutils-default-yama-scope  0.194-2.el10_2                    rpm   CVE-2025-1376    Low       0.3% (23rd)   < 0.1  
+elfutils-libelf              0.194-2.el10_2                    rpm   CVE-2025-1376    Low       0.3% (23rd)   < 0.1  
+elfutils-libs                0.194-2.el10_2                    rpm   CVE-2025-1376    Low       0.3% (23rd)   < 0.1  
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-13595   Medium    0.1% (3rd)    < 0.1  
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-13595   Medium    0.1% (3rd)    < 0.1  
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-13595   Medium    0.1% (3rd)    < 0.1  
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-13595   Medium    0.1% (3rd)    < 0.1  
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-13595   Medium    0.1% (3rd)    < 0.1  
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-13595   Medium    0.1% (3rd)    < 0.1  
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2026-5745    Medium    0.2% (5th)    < 0.1  
+sqlite-libs                  3.46.1-6.el10_2                   rpm   CVE-2026-50812   Medium    0.2% (5th)    < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-56131   Medium    0.2% (6th)    < 0.1  
+device-mapper                10:1.02.210-2.el10                rpm   CVE-2026-19617   Medium    0.2% (4th)    < 0.1  
+device-mapper-libs           10:1.02.210-2.el10                rpm   CVE-2026-19617   Medium    0.2% (4th)    < 0.1  
+gnutls                       3.8.10-5.el10_2                   rpm   CVE-2026-67693   Medium    0.2% (4th)    < 0.1  
+sed                          4.9-5.el10                        rpm   CVE-2026-5958    Medium    0.1% (3rd)    < 0.1  
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-3479    Low       0.2% (15th)   < 0.1  
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-3479    Low       0.2% (15th)   < 0.1  
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-3479    Low       0.2% (15th)   < 0.1  
+glibc                        2.39-145.el10_2                   rpm   CVE-2026-95818   Medium    0.1% (2nd)    < 0.1  
+glibc-common                 2.39-145.el10_2                   rpm   CVE-2026-95818   Medium    0.1% (2nd)    < 0.1  
+glibc-minimal-langpack       2.39-145.el10_2                   rpm   CVE-2026-95818   Medium    0.1% (2nd)    < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-92386   Low       0.2% (11th)   < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-92386   Low       0.2% (11th)   < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-56404   Medium    0.1% (2nd)    < 0.1  
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-44605   Low       0.2% (7th)    < 0.1  
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-44605   Low       0.2% (7th)    < 0.1  
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-44605   Low       0.2% (7th)    < 0.1  
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-44605   Low       0.2% (7th)    < 0.1  
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-44605   Low       0.2% (7th)    < 0.1  
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-44605   Low       0.2% (7th)    < 0.1  
+elfutils-debuginfod-client   0.194-2.el10_2                    rpm   CVE-2025-1371    Low       0.2% (14th)   < 0.1  
+elfutils-default-yama-scope  0.194-2.el10_2                    rpm   CVE-2025-1371    Low       0.2% (14th)   < 0.1  
+elfutils-libelf              0.194-2.el10_2                    rpm   CVE-2025-1371    Low       0.2% (14th)   < 0.1  
+elfutils-libs                0.194-2.el10_2                    rpm   CVE-2025-1371    Low       0.2% (14th)   < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-87863   Low       0.2% (12th)   < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-87863   Low       0.2% (12th)   < 0.1  
+libblkid                     2.40.2-18.el10                    rpm   CVE-2026-27456   Medium    0.2% (4th)    < 0.1  
+libfdisk                     2.40.2-18.el10                    rpm   CVE-2026-27456   Medium    0.2% (4th)    < 0.1  
+libmount                     2.40.2-18.el10                    rpm   CVE-2026-27456   Medium    0.2% (4th)    < 0.1  
+libsmartcols                 2.40.2-18.el10                    rpm   CVE-2026-27456   Medium    0.2% (4th)    < 0.1  
+libuuid                      2.40.2-18.el10                    rpm   CVE-2026-27456   Medium    0.2% (4th)    < 0.1  
+util-linux-core              2.40.2-18.el10                    rpm   CVE-2026-27456   Medium    0.2% (4th)    < 0.1  
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2025-5916    Low       0.2% (11th)   < 0.1  
+glib2                        2.80.4-12.el10_2.22               rpm   CVE-2026-86469   Medium    0.1% (3rd)    < 0.1  
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-5713    Medium    0.1% (2nd)    < 0.1  
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-5713    Medium    0.1% (2nd)    < 0.1  
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-5713    Medium    0.1% (2nd)    < 0.1  
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-103242  Medium    0.1% (1st)    < 0.1  
+python3-rpm                  4.19.1.1-23.el10                  rpm   CVE-2026-95520   Medium    0.1% (1st)    < 0.1  
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-103242  Medium    0.1% (1st)    < 0.1  
+rpm                          4.19.1.1-23.el10                  rpm   CVE-2026-95520   Medium    0.1% (1st)    < 0.1  
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-103242  Medium    0.1% (1st)    < 0.1  
+rpm-build-libs               4.19.1.1-23.el10                  rpm   CVE-2026-95520   Medium    0.1% (1st)    < 0.1  
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-103242  Medium    0.1% (1st)    < 0.1  
+rpm-libs                     4.19.1.1-23.el10                  rpm   CVE-2026-95520   Medium    0.1% (1st)    < 0.1  
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-103242  Medium    0.1% (1st)    < 0.1  
+rpm-plugin-systemd-inhibit   4.19.1.1-23.el10                  rpm   CVE-2026-95520   Medium    0.1% (1st)    < 0.1  
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-103242  Medium    0.1% (1st)    < 0.1  
+rpm-sign-libs                4.19.1.1-23.el10                  rpm   CVE-2026-95520   Medium    0.1% (1st)    < 0.1  
+nginx                        2:1.30.4-1.el10.ngx               rpm   CVE-2026-28755   Medium    0.1% (3rd)    < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-92389   Low       0.2% (11th)   < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-92389   Low       0.2% (11th)   < 0.1  
+pam-libs                     1.6.1-9.el10_2.1                  rpm   CVE-2026-12610   Medium    0.1% (1st)    < 0.1  
+libusb1                      1.0.30-1.el10_2                   rpm   CVE-2026-47104   Medium    0.1% (2nd)    < 0.1  
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-0864    Medium    0.1% (2nd)    < 0.1  
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-0864    Medium    0.1% (2nd)    < 0.1  
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-0864    Medium    0.1% (2nd)    < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-107929  Low       0.2% (9th)    < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-107929  Low       0.2% (9th)    < 0.1  
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2025-5917    Low       0.2% (13th)   < 0.1  
+libmodulemd                  2.15.0-12.el10                    rpm   CVE-2026-92824   Medium    0.1% (1st)    < 0.1  
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-42308   Medium    0.1% (1st)    < 0.1  
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-42308   Medium    0.1% (1st)    < 0.1  
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-42308   Medium    0.1% (1st)    < 0.1  
+bzip2-libs                   1.0.8-25.el10                     rpm   CVE-2026-42250   Medium    0.1% (2nd)    < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-56405   Medium    0.1% (2nd)    < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-94266   Low       0.2% (9th)    < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-94266   Low       0.2% (9th)    < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2026-87864   Low       0.2% (7th)    < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2026-87864   Low       0.2% (7th)    < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2025-66382   Low       0.2% (10th)   < 0.1  
+glibc                        2.39-145.el10_2                   rpm   CVE-2026-86805   Medium    < 0.1% (0th)  < 0.1  
+glibc-common                 2.39-145.el10_2                   rpm   CVE-2026-86805   Medium    < 0.1% (0th)  < 0.1  
+glibc-minimal-langpack       2.39-145.el10_2                   rpm   CVE-2026-86805   Medium    < 0.1% (0th)  < 0.1  
+curl                         8.12.1-4.el10_2.7                 rpm   CVE-2025-14017   Medium    0.1% (1st)    < 0.1  
+libcurl-minimal              8.12.1-4.el10_2.7                 rpm   CVE-2025-14017   Medium    0.1% (1st)    < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-24515   Low       0.2% (8th)    < 0.1  
+expat                        2.7.3-1.el10_2.7                  rpm   CVE-2026-76957   Medium    0.1% (1st)    < 0.1  
+libarchive                   3.7.7-11.el10_2                   rpm   CVE-2026-17591   Low       0.2% (4th)    < 0.1  
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2025-13462   Low       0.2% (5th)    < 0.1  
+python3                      3.12.15-1.el10_2                  rpm   CVE-2025-13462   Low       0.2% (5th)    < 0.1  
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2025-13462   Low       0.2% (5th)    < 0.1  
+glib2                        2.80.4-12.el10_2.22               rpm   CVE-2026-1485    Low       0.2% (4th)    < 0.1  
+popt                         1.19-8.el10                       rpm   CVE-2026-18739   Low       0.1% (3rd)    < 0.1  
+rpm-sequoia                  1.10.2.1-1.el10_2                 rpm   CVE-2026-2625    Medium    < 0.1% (0th)  < 0.1  
+popt                         1.19-8.el10                       rpm   CVE-2026-18743   Low       0.1% (3rd)    < 0.1  
+python-unversioned-command   3.12.15-1.el10_2                  rpm   CVE-2026-18503   Low       0.1% (1st)    < 0.1  
+python3                      3.12.15-1.el10_2                  rpm   CVE-2026-18503   Low       0.1% (1st)    < 0.1  
+python3-libs                 3.12.15-1.el10_2                  rpm   CVE-2026-18503   Low       0.1% (1st)    < 0.1  
+popt                         1.19-8.el10                       rpm   CVE-2026-18839   Low       0.1% (2nd)    < 0.1

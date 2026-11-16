@@ -1,0 +1,51 @@
+ARG BASE_REGISTRY=registry1.dso.mil
+ARG BASE_IMAGE=ironbank/redhat/ubi/ubi10-minimal
+ARG BASE_TAG=10.2
+
+FROM ${BASE_REGISTRY}/${BASE_IMAGE}:${BASE_TAG}
+
+USER root
+
+COPY nginx.rpm /tmp/
+COPY nginx_signing.key /etc/pki/rpm-gpg/
+COPY scripts/* /docker-entrypoint.d/
+COPY conf/nginx.conf /etc/nginx/
+
+RUN mv /docker-entrypoint.d/docker-entrypoint.sh /docker-entrypoint.sh && \
+    rpm --import /etc/pki/rpm-gpg/nginx_signing.key && \
+    rpmkeys --import /etc/pki/rpm-gpg/nginx_signing.key && \
+    microdnf -y update && \
+    microdnf -y install dnf && \
+    dnf -y install /tmp/nginx.rpm gettext 'dnf-command(versionlock)' && \
+    dnf versionlock add nginx && \
+    dnf update -y && \
+    dnf clean all && \
+    rm -rf /var/cache/dnf && \
+    mkdir -p /docker-entrypoint.d/ && \
+    mkdir -p /etc/nginx/templates && \
+    mkdir -p /var/cache/nginx && \
+    chown -R nginx:nginx /var/log/nginx && \
+    chown -R nginx:nginx /etc/nginx && \
+    chown -R nginx:nginx /docker-entrypoint.d && \
+    chown -R nginx:nginx /var/cache/nginx && \
+    rm -rf /var/cache/microdnf && \
+    ln -sf /dev/stdout /var/log/nginx/access.log && \
+    ln -sf /dev/stderr /var/log/nginx/error.log && \
+    cp -r /usr/share/nginx/html /etc/nginx && \
+    rm /etc/nginx/conf.d/default.conf && \
+    chown -R nginx:nginx /docker-entrypoint.d && \
+    chmod o-w etc/nginx/nginx.conf && \
+    chmod o-w docker-entrypoint.d/10-listen-on-ipv6-by-default.sh && \
+    chmod o-w docker-entrypoint.d/30-tune-worker-processes.sh && \
+    chmod o-w docker-entrypoint.d/20-envsubst-on-templates.sh && \
+    chmod o-w docker-entrypoint.sh
+
+USER nginx
+
+EXPOSE 8080 8443
+
+ENTRYPOINT ["/docker-entrypoint.sh"]
+
+STOPSIGNAL SIGQUIT
+
+CMD ["nginx", "-g", "daemon off;"]

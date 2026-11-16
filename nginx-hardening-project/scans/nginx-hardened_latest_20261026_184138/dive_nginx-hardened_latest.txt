@@ -1,0 +1,108 @@
+  Using default CI config
+[1mImage Source: [0mdocker://nginx-hardened:latest
+[1mExtracting image from docker-engine...[0m (this can take a while for large images)
+[1mAnalyzing image...[0m
+  efficiency: 85.3769 %
+  wastedBytes: 49711848 bytes (50 MB)
+  userWastedPercent: 33.3720 %
+[1mInefficient Files:[0m
+Count  Wasted Space  File Path
+    3         36 MB  /usr/lib/sysimage/rpm/rpmdb.sqlite
+    2        8.1 MB  /var/lib/dnf/history.sqlite-wal
+    2        1.7 MB  /usr/lib64/libdnf.so.2
+    2        1.1 MB  /tmp/nginx.rpm
+    2        381 kB  /usr/share/man/man5
+    2        331 kB  /usr/share/man/man1
+    2        270 kB  /usr/share/man/man8
+    2        254 kB  /var/lib/dnf/history.sqlite
+    2        183 kB  /usr/bin/passwd
+    2        174 kB  /usr/share/man/man7
+    2        174 kB  /usr/bin/chage
+    2        156 kB  /usr/bin/gpasswd
+    2        107 kB  /usr/bin/microdnf
+    3         98 kB  /usr/lib/sysimage/rpm/rpmdb.sqlite-shm
+    2         98 kB  /usr/bin/mount
+    2         84 kB  /usr/bin/newgrp
+    2         73 kB  /usr/bin/umount
+    2         66 kB  /var/lib/dnf/history.sqlite-shm
+    2         13 kB  /etc/ld.so.cache
+    2         11 kB  /usr/share/bash-completion/completions/dnf-3
+    2         11 kB  /etc/nginx/mime.types
+    2        7.2 kB  /var/log/dnf.log
+    2        4.2 kB  /etc/nginx/nginx.conf
+    2        3.6 kB  /tmp/nginx.conf
+    2        2.9 kB  /var/log/dnf.librepo.log
+    2        2.1 kB  /usr/bin/dnf-3
+    2        1.8 kB  /usr/share/man/man3
+    2        1.8 kB  /tmp/pkgs.with-dnf
+    2        1.4 kB  /etc/passwd
+    2        1.1 kB  /tmp/pkgs.before-dnf
+    3        1.1 kB  /var/log/hawkey.log
+    2        1.1 kB  /etc/nginx/conf.d/default.conf
+    2        1.0 kB  /etc/nginx/fastcgi_params
+    2         978 B  /usr/share/nginx/html/index.html
+    2         776 B  /etc/shadow
+    2         767 B  /var/log/dnf.rpm.log
+    2         689 B  /etc/group
+    2         664 B  /etc/nginx/uwsgi_params
+    2         636 B  /etc/nginx/scgi_params
+    2         530 B  /etc/gshadow
+    2         497 B  /usr/share/nginx/html/50x.html
+    2         457 B  /usr/lib/systemd/system/dnf-makecache.service
+    2         320 B  /usr/lib/systemd/system/dnf-makecache.timer
+    2         188 B  /usr/lib/tmpfiles.d/dnf.conf
+    2         108 B  /etc/dnf/dnf.conf
+    2          88 B  /etc/logrotate.d/dnf
+    2          82 B  /tmp/index.html
+    2          33 B  /etc/machine-id
+    2           0 B  /usr/share/man/man6
+    2           0 B  /usr/share/man/man5x
+    2           0 B  /usr/share/man/man6x
+    2           0 B  /usr/share/man/man4x
+    2           0 B  /usr/share/man/man4
+    2           0 B  /usr/share/man/man3x
+    2           0 B  /usr/share/man/man3p
+    2           0 B  /usr/bin/dnf
+    2           0 B  /usr/share/man/man2x
+    2           0 B  /usr/share/man/man2
+    2           0 B  /usr/bin/dnf4
+    2           0 B  /usr/share/man/man1p
+    2           0 B  /usr/share/man/man7x
+    2           0 B  /usr/share/man/man0p
+    2           0 B  /usr/lib/.build-id/00/df708d8aceb2d0f3b773813f874da652f1ab7c
+    2           0 B  /usr/lib/.build-id/35/e942a744c6f5c04381d4fc1ddaf786a0f0d6a9
+    2           0 B  /usr/lib/.build-id/5b/4923b3cd3b9ce2878a3dc83d7f771ec638498c
+    2           0 B  /usr/lib/.build-id/60/d7ee6f7181a959dc4d680db2e1c632970e6f68
+    2           0 B  /usr/lib/.build-id/7d/fc9d9a67afd831eb2f5e79c93e1a540b4e8824
+    2           0 B  /usr/lib/.build-id/96/df867c153642e617736b78ea4b0369280361ba
+    2           0 B  /usr/lib/.build-id/b3/2aafea30af24570ee5ddfd8f16e75b3f868d76
+    2           0 B  /usr/share/man/man8x
+    2           0 B  /usr/lib/.build-id/cc/b9eccdfc72bbb6e313756e08bfb4f9489d50e1
+    2           0 B  /etc/nginx/modules
+    2           0 B  /usr/lib/.build-id/dd/e576d35c19f032253c7449ca033e2792a4f7b2
+    2           0 B  /usr/share/man/man1x
+    2           0 B  /usr/share/man/man9x
+    2           0 B  /usr/share/man/mann
+    2           0 B  /var/cache/nginx
+    3           0 B  /var/tmp
+    2           0 B  /var/log/nginx/access.log
+    2           0 B  /usr/lib/.build-id/e7/48ea98365ed3f132f60d50eb1af784204f8380
+    2           0 B  /var/log/nginx/error.log
+    2           0 B  /etc/dnf/aliases.d
+    3           0 B  /usr/lib/sysimage/rpm/rpmdb.sqlite-wal
+    2           0 B  /etc/dnf/modules.d
+    2           0 B  /usr/share/bash-completion/completions/dnf
+    3           0 B  /usr/lib/sysimage/rpm/.rpm.lock
+    2           0 B  /usr/share/bash-completion/completions/dnf4
+    2           0 B  /etc/dnf/modules.defaults.d
+    2           0 B  /etc/dnf/plugins
+    2           0 B  /etc/dnf/usr-drift-protected-paths.d
+    2           0 B  /etc/dnf/vars
+    2           0 B  /usr/share/man/man9
+    2           0 B  /etc/systemd/system/timers.target.wants/dnf-makecache.timer
+[1mResults:[0m
+  [1;7;31mFAIL[0m: highestUserWastedPercent: too many bytes wasted, relative to the user bytes added (%-user-wasted-bytes=0.33371997135391424 > threshold=0.1)
+  [34mSKIP[0m: highestWastedBytes: rule disabled
+  [1;7;31mFAIL[0m: lowestEfficiency: image efficiency is too low (efficiency=0.8537690761949298 < threshold=0.9)
+[31mResult:FAIL [Total:3] [Passed:0] [Failed:2] [Warn:0] [Skipped:1][0m
+

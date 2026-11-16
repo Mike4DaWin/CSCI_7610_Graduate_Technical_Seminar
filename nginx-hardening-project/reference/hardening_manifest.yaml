@@ -1,0 +1,45 @@
+apiVersion: v1
+
+name: opensource/nginx/nginx
+
+tags:
+- 1.30.4
+- latest
+
+args:
+  BASE_IMAGE: redhat/ubi/ubi10-minimal
+  BASE_TAG: "10.2"
+
+labels:
+  org.opencontainers.image.title: nginx
+  org.opencontainers.image.description: NGINX is a free, open-source, high-performance HTTP server and reverse proxy.
+  org.opencontainers.image.licenses: BSD-2-Clause
+  org.opencontainers.image.url: https://nginx.org/en/
+  org.opencontainers.image.vendor: Iron Bank
+  org.opencontainers.image.version: 1.30.4
+  mil.dso.ironbank.image.keywords: nginx,proxy,webserver
+  mil.dso.ironbank.image.type: opensource
+  mil.dso.ironbank.product.name: nginx
+
+resources:
+- filename: nginx.rpm
+  url: https://nginx.org/packages/rhel/10/x86_64/RPMS/nginx-1.30.4-1.el10.ngx.x86_64.rpm
+  validation:
+    type: sha256
+    value: edacd6b7faf6b6c773c64aa78f1cc0cdbbde7469d5524e0443ab02a143577945
+- filename: nginx-arm.rpm
+  url: https://nginx.org/packages/rhel/10/aarch64/RPMS/nginx-1.30.4-1.el10.ngx.aarch64.rpm
+  validation:
+    type: sha256
+    value: 5fcd2faae3829ecebb2c4b7cc7f97f1dc39544994aef4d275003d759ffc39364
+- filename: nginx_signing.key
+  url: https://nginx.org/keys/nginx_signing.key
+  validation:
+    type: sha256
+    value: 55385da31d198fa6a5012d40ae98ecb272a6c4e8fffffba94719ffd3e87de37a
+
+maintainers:
+- name: "Jeff Weatherford"
+  email: "AFLCMC.HNCX.Helpdesk@us.af.mil"
+  username: "jweatherford"
+  cht_member: true
